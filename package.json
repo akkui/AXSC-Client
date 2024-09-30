@@ -1,0 +1,17 @@
+{
+    "name": "axsc",
+    "author": "akkui",
+    "dependencies": {
+        "node-fetch": "^2.7.0",
+        "ws": "^8.18.0"
+    },
+    "version": "1.0.0",
+    "bin": "handler.js",
+    "pkg": {
+        "targets": [
+            "node18-win-x64",
+            "node18-linux-x64",
+            "node18-macos-x64"
+        ]
+    }
+}
